@@ -1,0 +1,376 @@
+{
+  "frozenAt": "2026-09-30T08:42:43.605Z",
+  "designStart": "2011-01-01",
+  "designEnd": "2017-12-31",
+  "chosen": {
+    "K": 500,
+    "N": 30,
+    "R": 3,
+    "filter": false,
+    "start": "2011-01-01",
+    "end": "2017-12-31",
+    "capital": 500000
+  },
+  "rows": [
+    {
+      "variant": "K500 N30 R3 always",
+      "cagr": "30.7%",
+      "afterTax": "26.7%",
+      "sharpe": "1.06",
+      "maxDD": "-29.3%",
+      "costs": "1.94%/yr",
+      "turnover": "2.0x",
+      "end": "₹32.5L"
+    },
+    {
+      "variant": "K500 N30 R3 trend",
+      "cagr": "26.0%",
+      "afterTax": "22.4%",
+      "sharpe": "1.05",
+      "maxDD": "-24.2%",
+      "costs": "1.99%/yr",
+      "turnover": "2.0x",
+      "end": "₹25.1L"
+    },
+    {
+      "variant": "K500 N20 R6 trend",
+      "cagr": "25.9%",
+      "afterTax": "22.0%",
+      "sharpe": "1.05",
+      "maxDD": "-20.6%",
+      "costs": "1.68%/yr",
+      "turnover": "1.8x",
+      "end": "₹25.0L"
+    },
+    {
+      "variant": "K500 N10 R3 always",
+      "cagr": "34.3%",
+      "afterTax": "28.7%",
+      "sharpe": "1.04",
+      "maxDD": "-31.6%",
+      "costs": "2.23%/yr",
+      "turnover": "2.3x",
+      "end": "₹39.4L"
+    },
+    {
+      "variant": "K500 N30 R1 trend",
+      "cagr": "26.1%",
+      "afterTax": "22.4%",
+      "sharpe": "1.02",
+      "maxDD": "-27.5%",
+      "costs": "2.46%/yr",
+      "turnover": "2.4x",
+      "end": "₹25.4L"
+    },
+    {
+      "variant": "K500 N10 R3 trend",
+      "cagr": "29.0%",
+      "afterTax": "24.7%",
+      "sharpe": "1.01",
+      "maxDD": "-36.0%",
+      "costs": "2.22%/yr",
+      "turnover": "2.3x",
+      "end": "₹29.7L"
+    },
+    {
+      "variant": "K500 N10 R6 trend",
+      "cagr": "28.3%",
+      "afterTax": "24.0%",
+      "sharpe": "1.01",
+      "maxDD": "-21.7%",
+      "costs": "1.82%/yr",
+      "turnover": "1.9x",
+      "end": "₹28.5L"
+    },
+    {
+      "variant": "K500 N20 R1 trend",
+      "cagr": "27.1%",
+      "afterTax": "23.1%",
+      "sharpe": "1.01",
+      "maxDD": "-28.5%",
+      "costs": "2.64%/yr",
+      "turnover": "2.6x",
+      "end": "₹26.8L"
+    },
+    {
+      "variant": "K500 N30 R1 always",
+      "cagr": "29.6%",
+      "afterTax": "25.6%",
+      "sharpe": "1.01",
+      "maxDD": "-28.9%",
+      "costs": "2.60%/yr",
+      "turnover": "2.6x",
+      "end": "₹30.6L"
+    },
+    {
+      "variant": "K500 N20 R3 trend",
+      "cagr": "26.3%",
+      "afterTax": "22.5%",
+      "sharpe": "1.01",
+      "maxDD": "-28.0%",
+      "costs": "2.09%/yr",
+      "turnover": "2.1x",
+      "end": "₹25.5L"
+    },
+    {
+      "variant": "K500 N30 R6 trend",
+      "cagr": "24.4%",
+      "afterTax": "21.2%",
+      "sharpe": "1.00",
+      "maxDD": "-22.2%",
+      "costs": "1.69%/yr",
+      "turnover": "1.8x",
+      "end": "₹23.0L"
+    },
+    {
+      "variant": "K500 N20 R6 always",
+      "cagr": "29.2%",
+      "afterTax": "25.4%",
+      "sharpe": "0.99",
+      "maxDD": "-31.1%",
+      "costs": "1.48%/yr",
+      "turnover": "1.6x",
+      "end": "₹30.0L"
+    },
+    {
+      "variant": "K500 N30 R6 always",
+      "cagr": "27.9%",
+      "afterTax": "24.5%",
+      "sharpe": "0.97",
+      "maxDD": "-31.2%",
+      "costs": "1.48%/yr",
+      "turnover": "1.5x",
+      "end": "₹27.9L"
+    },
+    {
+      "variant": "K500 N10 R6 always",
+      "cagr": "32.0%",
+      "afterTax": "26.9%",
+      "sharpe": "0.96",
+      "maxDD": "-33.5%",
+      "costs": "1.62%/yr",
+      "turnover": "1.7x",
+      "end": "₹34.8L"
+    },
+    {
+      "variant": "K500 N20 R3 always",
+      "cagr": "29.1%",
+      "afterTax": "24.8%",
+      "sharpe": "0.95",
+      "maxDD": "-28.1%",
+      "costs": "2.11%/yr",
+      "turnover": "2.1x",
+      "end": "₹29.8L"
+    },
+    {
+      "variant": "K500 N20 R1 always",
+      "cagr": "26.8%",
+      "afterTax": "22.6%",
+      "sharpe": "0.85",
+      "maxDD": "-29.3%",
+      "costs": "2.94%/yr",
+      "turnover": "2.9x",
+      "end": "₹26.3L"
+    },
+    {
+      "variant": "K500 N10 R1 trend",
+      "cagr": "25.1%",
+      "afterTax": "21.2%",
+      "sharpe": "0.82",
+      "maxDD": "-42.0%",
+      "costs": "3.08%/yr",
+      "turnover": "3.1x",
+      "end": "₹24.0L"
+    },
+    {
+      "variant": "K200 N10 R1 always",
+      "cagr": "25.5%",
+      "afterTax": "21.4%",
+      "sharpe": "0.81",
+      "maxDD": "-29.7%",
+      "costs": "1.78%/yr",
+      "turnover": "2.9x",
+      "end": "₹24.5L"
+    },
+    {
+      "variant": "K200 N20 R1 always",
+      "cagr": "21.9%",
+      "afterTax": "19.8%",
+      "sharpe": "0.73",
+      "maxDD": "-24.0%",
+      "costs": "1.39%/yr",
+      "turnover": "2.2x",
+      "end": "₹20.0L"
+    },
+    {
+      "variant": "K500 N10 R1 always",
+      "cagr": "25.2%",
+      "afterTax": "20.7%",
+      "sharpe": "0.72",
+      "maxDD": "-47.2%",
+      "costs": "3.49%/yr",
+      "turnover": "3.4x",
+      "end": "₹24.0L"
+    },
+    {
+      "variant": "K200 N10 R3 always",
+      "cagr": "23.0%",
+      "afterTax": "19.6%",
+      "sharpe": "0.72",
+      "maxDD": "-36.5%",
+      "costs": "1.22%/yr",
+      "turnover": "2.1x",
+      "end": "₹21.3L"
+    },
+    {
+      "variant": "K200 N20 R1 trend",
+      "cagr": "19.1%",
+      "afterTax": "16.9%",
+      "sharpe": "0.71",
+      "maxDD": "-20.6%",
+      "costs": "1.42%/yr",
+      "turnover": "2.3x",
+      "end": "₹17.0L"
+    },
+    {
+      "variant": "K200 N10 R1 trend",
+      "cagr": "20.3%",
+      "afterTax": "17.5%",
+      "sharpe": "0.70",
+      "maxDD": "-28.7%",
+      "costs": "1.70%/yr",
+      "turnover": "2.8x",
+      "end": "₹18.2L"
+    },
+    {
+      "variant": "K200 N10 R3 trend",
+      "cagr": "19.8%",
+      "afterTax": "16.8%",
+      "sharpe": "0.69",
+      "maxDD": "-31.3%",
+      "costs": "1.23%/yr",
+      "turnover": "2.1x",
+      "end": "₹17.7L"
+    },
+    {
+      "variant": "K200 N30 R1 always",
+      "cagr": "19.3%",
+      "afterTax": "17.5%",
+      "sharpe": "0.64",
+      "maxDD": "-25.1%",
+      "costs": "1.25%/yr",
+      "turnover": "1.9x",
+      "end": "₹17.2L"
+    },
+    {
+      "variant": "K200 N30 R1 trend",
+      "cagr": "17.2%",
+      "afterTax": "15.2%",
+      "sharpe": "0.63",
+      "maxDD": "-19.4%",
+      "costs": "1.31%/yr",
+      "turnover": "2.1x",
+      "end": "₹15.2L"
+    },
+    {
+      "variant": "K200 N20 R3 trend",
+      "cagr": "16.7%",
+      "afterTax": "14.8%",
+      "sharpe": "0.60",
+      "maxDD": "-19.8%",
+      "costs": "1.11%/yr",
+      "turnover": "1.8x",
+      "end": "₹14.7L"
+    },
+    {
+      "variant": "K200 N20 R3 always",
+      "cagr": "18.1%",
+      "afterTax": "16.4%",
+      "sharpe": "0.57",
+      "maxDD": "-23.2%",
+      "costs": "1.02%/yr",
+      "turnover": "1.7x",
+      "end": "₹16.0L"
+    },
+    {
+      "variant": "K200 N30 R3 trend",
+      "cagr": "15.8%",
+      "afterTax": "13.9%",
+      "sharpe": "0.56",
+      "maxDD": "-18.5%",
+      "costs": "1.07%/yr",
+      "turnover": "1.7x",
+      "end": "₹13.9L"
+    },
+    {
+      "variant": "K200 N30 R6 always",
+      "cagr": "17.1%",
+      "afterTax": "15.6%",
+      "sharpe": "0.55",
+      "maxDD": "-26.2%",
+      "costs": "0.76%/yr",
+      "turnover": "1.2x",
+      "end": "₹15.1L"
+    },
+    {
+      "variant": "K200 N20 R6 always",
+      "cagr": "17.0%",
+      "afterTax": "15.0%",
+      "sharpe": "0.53",
+      "maxDD": "-26.6%",
+      "costs": "0.82%/yr",
+      "turnover": "1.3x",
+      "end": "₹15.0L"
+    },
+    {
+      "variant": "K200 N10 R6 trend",
+      "cagr": "15.9%",
+      "afterTax": "13.9%",
+      "sharpe": "0.52",
+      "maxDD": "-31.9%",
+      "costs": "1.08%/yr",
+      "turnover": "1.8x",
+      "end": "₹14.0L"
+    },
+    {
+      "variant": "K200 N20 R6 trend",
+      "cagr": "15.0%",
+      "afterTax": "13.4%",
+      "sharpe": "0.51",
+      "maxDD": "-19.4%",
+      "costs": "0.99%/yr",
+      "turnover": "1.6x",
+      "end": "₹13.3L"
+    },
+    {
+      "variant": "K200 N30 R3 always",
+      "cagr": "16.3%",
+      "afterTax": "14.8%",
+      "sharpe": "0.51",
+      "maxDD": "-26.5%",
+      "costs": "0.97%/yr",
+      "turnover": "1.5x",
+      "end": "₹14.4L"
+    },
+    {
+      "variant": "K200 N30 R6 trend",
+      "cagr": "14.5%",
+      "afterTax": "12.8%",
+      "sharpe": "0.50",
+      "maxDD": "-17.9%",
+      "costs": "0.96%/yr",
+      "turnover": "1.5x",
+      "end": "₹12.9L"
+    },
+    {
+      "variant": "K200 N10 R6 always",
+      "cagr": "17.1%",
+      "afterTax": "15.1%",
+      "sharpe": "0.50",
+      "maxDD": "-34.5%",
+      "costs": "0.94%/yr",
+      "turnover": "1.5x",
+      "end": "₹15.1L"
+    }
+  ]
+}

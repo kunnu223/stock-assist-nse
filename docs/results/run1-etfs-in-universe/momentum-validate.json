@@ -1,0 +1,90 @@
+{
+  "v1": [
+    {
+      "sym": "RELIANCE",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "16.6%",
+      "yahoo": "16.9%",
+      "gapPctPts": -0.29
+    },
+    {
+      "sym": "HDFCBANK",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "8.4%",
+      "yahoo": "8.4%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "INFY",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "6.9%",
+      "yahoo": "6.9%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "TCS",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "5.4%",
+      "yahoo": "5.4%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "ITC",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "1.5%",
+      "yahoo": "1.3%",
+      "gapPctPts": 0.18
+    },
+    {
+      "sym": "LT",
+      "from": "2016-10-03",
+      "to": "2026-09-28",
+      "ours": "14.4%",
+      "yahoo": "14.4%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "SBIN",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "14.2%",
+      "yahoo": "14.2%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "BHARTIARTL",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "19.6%",
+      "yahoo": "20.0%",
+      "gapPctPts": -0.38
+    },
+    {
+      "sym": "HINDUNILVR",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "7.9%",
+      "yahoo": "7.9%",
+      "gapPctPts": 0
+    },
+    {
+      "sym": "AXISBANK",
+      "from": "2016-10-03",
+      "to": "2026-09-29",
+      "ours": "8.2%",
+      "yahoo": "8.2%",
+      "gapPctPts": 0
+    }
+  ],
+  "months": 189,
+  "monthlyCorrelation": 0.909,
+  "oursCagr": "18.0%",
+  "officialPriceIndexCagr": "15.4%",
+  "oursMaxDD": "-42.9%",
+  "officialMaxDD": "-34.2%"
+}

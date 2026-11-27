@@ -1,0 +1,120 @@
+{
+  "verdict": "PASS",
+  "pass": {
+    "P1_beatsNifty500": true,
+    "P2_beatsRandom_p_lt_0_05": true,
+    "P3_afterTaxBeatsNifty500": true
+  },
+  "summary": {
+    "config": {
+      "K": 500,
+      "N": 30,
+      "R": 3,
+      "filter": false,
+      "start": "2018-01-01",
+      "end": "2026-09-29",
+      "capital": 500000
+    },
+    "metrics": {
+      "start": "2017-12-29",
+      "end": "2026-09-29",
+      "years": 8.750171115674195,
+      "startValue": 500000,
+      "endValue": 2700048.222786762,
+      "cagr": 0.21255485143458852,
+      "vol": 0.23432058283112428,
+      "sharpe": 0.7254827093130178,
+      "maxDrawdown": -0.4238360839427824,
+      "maxDrawdownPeak": "2018-01-12",
+      "maxDrawdownTrough": "2020-03-24",
+      "worstMonth": -0.23495782941198684,
+      "worstYear": -0.12798291868601874,
+      "bestYear": 0.8107137429274378,
+      "yearly": {
+        "2018": -0.12798291868601874,
+        "2019": 0.014106436395713073,
+        "2020": 0.4517150282957021,
+        "2021": 0.6913073071674738,
+        "2022": 0.040287974511628244,
+        "2023": 0.8107137429274378,
+        "2024": 0.1925357309081812,
+        "2025": -0.04271722974538317,
+        "2026": 0.1565757140010362
+      }
+    },
+    "afterTaxEndValue": 2241117.972542103,
+    "afterTaxCagr": 0.1870119269187649,
+    "taxPaid": 347325.65447146987,
+    "chargesPaid": 61523.00991045113,
+    "slippagePaid": 72300.17922290415,
+    "costPctPerYear": 1.205196720877356,
+    "turnoverPerYear": 2.1177373419233856,
+    "trades": 1189,
+    "rebalances": 36,
+    "riskOffMonths": 0,
+    "skippedBuys": 8,
+    "disappeared": [
+      {
+        "symbol": "POLARIS",
+        "date": "2018-07-31"
+      }
+    ],
+    "lastTargets": [
+      "LIQUID1",
+      "LIQUIDADD",
+      "LIQUIDPLUS",
+      "LIQUIDBETF",
+      "CASHIETF",
+      "LIQUIDCASE",
+      "CUPID",
+      "HFCL",
+      "WELCORP",
+      "SHILPAMED",
+      "ATHERENERG",
+      "LAURUSLABS",
+      "CPPLUS",
+      "SANSERA",
+      "SKYGOLD",
+      "RRKABEL",
+      "AVALON",
+      "IOLCP",
+      "MOREPENLAB",
+      "AEROFLEX",
+      "SBC",
+      "AETHER",
+      "PARAS",
+      "PAISALO",
+      "SENORES",
+      "BHEL",
+      "TDPOWERSYS",
+      "KTKBANK",
+      "ANANDRATHI",
+      "TFCILTD"
+    ]
+  },
+  "baselines": [
+    {
+      "name": "Nifty 500 (price index, buy & hold)",
+      "cagr": 0.10142591354689401,
+      "maxDrawdown": -0.3830235109253165,
+      "sharpe": 0.3466984217621017,
+      "endValue": 1164356.4982377393,
+      "afterTaxCagr": 0.09363571528093151
+    },
+    {
+      "name": "Equal-weight top-500 universe (gross)",
+      "cagr": 0.10949830295528873,
+      "maxDrawdown": -0.6042772166749075,
+      "sharpe": 0.36021299129530776,
+      "endValue": 1241183.0790188035
+    }
+  ],
+  "random": {
+    "runs": 500,
+    "p": 0.001996007984031936,
+    "medianCagr": 0.07659061491096963,
+    "p5Cagr": 0.03760950878694391,
+    "p95Cagr": 0.11934645540824151
+  },
+  "dataLastDate": "2026-09-29"
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "case": "holdout as chosen",
+    "variant": "K500 N20 R6 always",
+    "cagr": "17.1%",
+    "afterTax": "14.8%",
+    "sharpe": "0.56",
+    "maxDD": "-45.8%",
+    "costs": "0.90%/yr",
+    "turnover": "1.6x",
+    "end": "₹20.0L",
+    "nifty500": "10.1%",
+    "niftyAfterTax": "9.4%"
+  },
+  {
+    "case": "2x slippage",
+    "variant": "K500 N20 R6 always",
+    "cagr": "16.3%",
+    "afterTax": "14.1%",
+    "sharpe": "0.53",
+    "maxDD": "-47.2%",
+    "costs": "1.40%/yr",
+    "turnover": "1.6x",
+    "end": "₹18.8L",
+    "nifty500": "10.1%",
+    "niftyAfterTax": "9.4%"
+  },
+  {
+    "case": "Rs 1 lakh capital",
+    "variant": "K500 N20 R6 always",
+    "cagr": "16.0%",
+    "afterTax": "14.2%",
+    "sharpe": "0.53",
+    "maxDD": "-46.6%",
+    "costs": "1.11%/yr",
+    "turnover": "1.6x",
+    "end": "₹3.7L",
+    "nifty500": "10.1%",
+    "niftyAfterTax": "10.1%"
+  },
+  {
+    "case": "live NSE era (2020-09-01 on)",
+    "variant": "K500 N20 R6 always",
+    "cagr": "27.3%",
+    "afterTax": "23.5%",
+    "sharpe": "0.90",
+    "maxDD": "-33.4%",
+    "costs": "0.87%/yr",
+    "turnover": "1.6x",
+    "end": "₹21.7L",
+    "nifty500": "15.2%",
+    "niftyAfterTax": "14.0%"
+  }
+]

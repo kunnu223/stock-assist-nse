@@ -1,0 +1,111 @@
+{
+  "verdict": "PASS",
+  "pass": {
+    "P1_beatsNifty500": true,
+    "P2_beatsRandom_p_lt_0_05": true,
+    "P3_afterTaxBeatsNifty500": true
+  },
+  "summary": {
+    "config": {
+      "K": 500,
+      "N": 20,
+      "R": 6,
+      "filter": false,
+      "start": "2018-01-01",
+      "end": "2026-09-29",
+      "capital": 500000
+    },
+    "metrics": {
+      "start": "2017-12-29",
+      "end": "2026-09-29",
+      "years": 8.750171115674195,
+      "startValue": 500000,
+      "endValue": 1996039.1700336065,
+      "cagr": 0.1714051251132751,
+      "vol": 0.24416865361073084,
+      "sharpe": 0.5611340365013794,
+      "maxDrawdown": -0.4583094274136711,
+      "maxDrawdownPeak": "2018-01-12",
+      "maxDrawdownTrough": "2020-03-23",
+      "worstMonth": -0.19694327201638084,
+      "worstYear": -0.191286247625293,
+      "bestYear": 0.7853408613924984,
+      "yearly": {
+        "2018": -0.191286247625293,
+        "2019": -0.007982256645069796,
+        "2020": 0.4797677155223923,
+        "2021": 0.6003744546276673,
+        "2022": -0.09810026019565499,
+        "2023": 0.7853408613924984,
+        "2024": 0.1531496206471079,
+        "2025": -0.07681587711199267,
+        "2026": 0.2257904528144532
+      }
+    },
+    "afterTaxEndValue": 1669135.1200017359,
+    "afterTaxCagr": 0.1477039001851539,
+    "taxPaid": 247278.018290992,
+    "chargesPaid": 35635.39192373262,
+    "slippagePaid": 42889.21332653134,
+    "costPctPerYear": 0.9046487564170264,
+    "turnoverPerYear": 1.6099409347076648,
+    "trades": 595,
+    "rebalances": 18,
+    "riskOffMonths": 0,
+    "skippedBuys": 4,
+    "disappeared": [
+      {
+        "symbol": "TATASTLBSL",
+        "date": "2021-11-22",
+        "value": 33286
+      }
+    ],
+    "lastTargets": [
+      "MTARTECH",
+      "CUPID",
+      "SBC",
+      "HFCL",
+      "BAJAJCON",
+      "BLISSGVS",
+      "VEDL",
+      "ACUTAAS",
+      "NATIONALUM",
+      "GVT&D",
+      "AEROFLEX",
+      "LAURUSLABS",
+      "TDPOWERSYS",
+      "BBOX",
+      "KIRLOSENG",
+      "ATHERENERG",
+      "SANSERA",
+      "ADANIPOWER",
+      "HINDALCO",
+      "MCX"
+    ]
+  },
+  "baselines": [
+    {
+      "name": "Nifty 500 (price index, buy & hold)",
+      "cagr": 0.10142591354689401,
+      "maxDrawdown": -0.3830235109253165,
+      "sharpe": 0.3466984217621017,
+      "endValue": 1164356.4982377393,
+      "afterTaxCagr": 0.09363571528093151
+    },
+    {
+      "name": "Equal-weight top-500 universe (gross)",
+      "cagr": 0.10975794412203621,
+      "maxDrawdown": -0.6100726634922635,
+      "sharpe": 0.3596023993966758,
+      "endValue": 1243726.9387712511
+    }
+  ],
+  "random": {
+    "runs": 500,
+    "p": 0.017964071856287425,
+    "medianCagr": 0.09516962224235126,
+    "p5Cagr": 0.04741909761747243,
+    "p95Cagr": 0.1516606939769738
+  },
+  "dataLastDate": "2026-09-29"
+}
