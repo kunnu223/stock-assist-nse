@@ -71,4 +71,5 @@ npx tsx scripts/momentumBacktest.ts holdout
 ## Known gaps
 
 - The LLM model names in `apps/api/src/services/ai` are old and need updating before the analysis app's AI part works again.
+- 184 of 193 tests pass. The 9 that fail are all in the older analysis code (candlestick pattern weights, MACD, entry zone), not in the momentum backtest.
 - Returns are price returns (dividends ignored), for the strategy and the benchmarks alike.
