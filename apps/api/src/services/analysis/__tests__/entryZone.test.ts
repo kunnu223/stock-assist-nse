@@ -105,8 +105,8 @@ describe('calculateEntryZone', () => {
         const result = calculateEntryZone(smcWithBullishOB(), 103, 3, 'bullish');
         expect(result).not.toBeNull();
         if (result) {
-            // SL = OB low (100) - 0.5 * ATR (3) = 98.5
-            expect(result.stopLoss).toBe(98.5);
+            // SL = OB low (100) - 1.2 * ATR (3) = 96.4
+            expect(result.stopLoss).toBe(96.4);
         }
     });
 

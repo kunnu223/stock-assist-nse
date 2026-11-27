@@ -68,8 +68,14 @@ npx tsx scripts/nseSync.ts               # downloads and caches NSE data (large,
 npx tsx scripts/momentumBacktest.ts holdout
 ```
 
+## Tests
+
+```bash
+npm run build -w @stock-assist/shared
+cd apps/api && npx vitest run     # 193 tests
+```
+
 ## Known gaps
 
 - The LLM model names in `apps/api/src/services/ai` are old and need updating before the analysis app's AI part works again.
-- 184 of 193 tests pass. The 9 that fail are all in the older analysis code (candlestick pattern weights, MACD, entry zone), not in the momentum backtest.
 - Returns are price returns (dividends ignored), for the strategy and the benchmarks alike.

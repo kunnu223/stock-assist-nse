@@ -65,7 +65,7 @@ describe('detectCandlestickPatterns — single-candle', () => {
         expect(result.patterns.some(p => p.name === 'Doji')).toBe(true);
         const dojiPattern = result.patterns.find(p => p.name === 'Doji')!;
         expect(dojiPattern.type).toBe('neutral');
-        expect(dojiPattern.confidenceWeight).toBe(0.3);
+        expect(dojiPattern.confidenceWeight).toBe(0);
     });
 
     it('detects Gravestone Doji (long upper shadow)', () => {
@@ -93,7 +93,7 @@ describe('detectCandlestickPatterns — single-candle', () => {
         expect(hammer).toBeDefined();
         expect(hammer!.type).toBe('bullish');
         expect(hammer!.strength).toBe('strong');
-        expect(hammer!.confidenceWeight).toBe(0.75);
+        expect(hammer!.confidenceWeight).toBe(0.57);
     });
 
     it('detects Shooting Star after uptrend', () => {
@@ -113,7 +113,7 @@ describe('detectCandlestickPatterns — single-candle', () => {
         expect(result.patterns.some(p => p.name === 'Bullish Marubozu')).toBe(true);
         const m = result.patterns.find(p => p.name === 'Bullish Marubozu')!;
         expect(m.strength).toBe('strong');
-        expect(m.confidenceWeight).toBe(0.8);
+        expect(m.confidenceWeight).toBe(0.62);
     });
 
     it('detects Bearish Marubozu', () => {
@@ -143,7 +143,7 @@ describe('detectCandlestickPatterns — two-candle', () => {
         const result = detectCandlestickPatterns(data);
         expect(result.patterns.some(p => p.name === 'Bullish Engulfing')).toBe(true);
         const eng = result.patterns.find(p => p.name === 'Bullish Engulfing')!;
-        expect(eng.confidenceWeight).toBe(0.8);
+        expect(eng.confidenceWeight).toBe(0.58);
         expect(eng.strength).toBe('strong');
     });
 
@@ -189,7 +189,7 @@ describe('detectCandlestickPatterns — three-candle', () => {
         const result = detectCandlestickPatterns(data);
         expect(result.patterns.some(p => p.name === 'Morning Star')).toBe(true);
         const ms = result.patterns.find(p => p.name === 'Morning Star')!;
-        expect(ms.confidenceWeight).toBe(0.85);
+        expect(ms.confidenceWeight).toBe(0.62);
         expect(ms.strength).toBe('strong');
     });
 

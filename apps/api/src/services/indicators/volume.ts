@@ -30,25 +30,20 @@ export const analyzeVolume = (data: OHLCData[]): VolumeAnalysis => {
  * Signal Line = EMA9 of MACD Line (NOT an approximation)
  * Histogram = MACD Line - Signal Line
  */
-/** Sector-optimized MACD periods (Inumula 2019, +615% vs standard on NIFTY 50) */
-const SECTOR_MACD_PARAMS: Record<string, [number, number, number]> = {
-    'IT':              [9, 8, 9],
-    'Automobiles':     [9, 10, 8],
-    'Pharmaceuticals': [11, 9, 12],
-    'Financials':      [12, 8, 16],
-    'Metals':          [11, 10, 14],
-    'Energy':          [10, 5, 12],
-    'FMCG':            [10, 7, 8],
-    'default':         [10, 8, 11],
-};
+/**
+ * Standard MACD periods: fast EMA 12, slow EMA 26, signal EMA 9.
+ * An earlier per-sector table had fast periods longer than slow ones for most sectors, which
+ * flipped the sign of the MACD line. The `sector` argument is kept for callers and is unused.
+ */
+const MACD_PARAMS: [number, number, number] = [12, 26, 9];
 
-export const calcMACD = (prices: number[], sector?: string): MACDResult => {
-    const [fast, slow, sig] = SECTOR_MACD_PARAMS[sector || ''] || SECTOR_MACD_PARAMS['default'];
+export const calcMACD = (prices: number[], _sector?: string): MACDResult => {
+    const [fast, slow, sig] = MACD_PARAMS;
     if (prices.length < slow) {
         return { macd: 0, signal: 0, histogram: 0, trend: 'neutral', divergence: 'none' };
     }
 
-    // Build full EMA arrays with sector-specific periods
+    // Build full EMA arrays
     const ema12Array = calcEMAArray(prices, fast);
     const ema26Array = calcEMAArray(prices, slow);
 
@@ -156,10 +151,9 @@ export const calcVWAP = (data: OHLCData[], period: number = 5): number => {
 
 /**
  * Build full MACD histogram array (for momentum analysis).
- * Uses sector-specific parameters.
  */
-export function buildMACDHistogramArray(prices: number[], sector?: string): number[] {
-    const [fast, slow, sig] = SECTOR_MACD_PARAMS[sector || ''] || SECTOR_MACD_PARAMS['default'];
+export function buildMACDHistogramArray(prices: number[], _sector?: string): number[] {
+    const [fast, slow, sig] = MACD_PARAMS;
     if (prices.length < slow + sig) return [];
 
     const ema12Array = calcEMAArray(prices, fast);
